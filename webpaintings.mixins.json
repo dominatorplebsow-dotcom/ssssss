@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.webpaintings.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DecorationItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

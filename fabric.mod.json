@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "webpaintings",
+  "version": "${version}",
+  "name": "Paintings Behind Cobwebs",
+  "description": "Pozwala wieszać obrazy na ścianie za pajęczyną.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["webpaintings.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
